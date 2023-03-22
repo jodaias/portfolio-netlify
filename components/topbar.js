@@ -11,18 +11,18 @@ export default function TopBar() {
             </Link>
           </li>
           <li className="menuItem">
-            <Link href="/about">
-              <a>About</a>
-            </Link>
-          </li>
-          <li className="menuItem">
             <Link href="/projects">
-              <a>Projects</a>
+              <a>Projetos</a>
             </Link>
           </li>
           <li className="menuItem">
             <Link href="/contact">
-              <a>Contact</a>
+              <a>Contato</a>
+            </Link>
+          </li>
+          <li className="menuItem">
+            <Link href="/about">
+              <a>Sobre</a>
             </Link>
           </li>
         </ul>

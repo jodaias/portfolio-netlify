@@ -11,7 +11,6 @@ body {
 }
 
 main {
-  padding: 5rem 0;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -27,9 +26,49 @@ code {
 }
 
 .container {
-  height: 100vh;
-  display: flex;
+  width: 100%;
+  height: 85vh;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.content {
+  padding-top: 50px; /* Igual à altura da top bar */
+  overflow-y: scroll;
+  max-height: calc(100vh - 80px); /* Altura máxima do conteúdo da página */
+}
+
+.title {
+  font-size: 32px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.summary{
+  font-size: 24px;
+  margin-bottom: 48px;
+  text-align: justify;
+}
+
+/* estilo da barra de rolagem */
+::-webkit-scrollbar {
+  width: 12px; /* largura da barra de rolagem */
+}
+
+/* cor do fundo da barra de rolagem */
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+
+/* cor do preenchimento da barra de rolagem */
+::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 20px; /* arredondamento das bordas da barra de rolagem */
+}
+
+/* cor da seta da barra de rolagem */
+::-webkit-scrollbar-button {
+  background-color: #ccc;
 }

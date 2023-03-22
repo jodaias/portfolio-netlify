@@ -1,11 +1,11 @@
 import Head from 'next/head'
 import HeaderTile from '@components/header-title';
 import Footer from '@components/Footer';
-import TopBar from './topbar';
+import TopBar from '../components/topbar';
 
 export default function Home() {
   return (
-    <div className="container">
+    <div className="container content">
       <Head>
         <title>Meu Portifólio</title>
         <link rel="icon" href="/jods.dev.svg" />

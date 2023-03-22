@@ -1,4 +1,4 @@
-.header {
+/* .header {
   background-color: #333;
   color: #fff;
   padding: 1rem;
@@ -53,4 +53,48 @@
 .card p {
   font-size: 18px;
   color: #333;
+} */
+
+.header {
+  background-color: #24292e;
+  color: #fff;
+  width: 1000%;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.menuItem {
+  margin-right: 20px;
+}
+
+.menuItem:last-child {
+  margin-right: 0;
+}
+
+.menuItem a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  /* transition: color 0.2s ease-in-out; */
+}
+
+.menuItem a:hover {
+  color: #05b1b1;
 }
