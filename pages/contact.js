@@ -18,6 +18,8 @@ export default function Contact() {
           <p>Entre em contato:</p>
           <ul>
             <li>Email: jodaias.developer@gmail.com</li>
+            <li>LinkedIN: https://www.linkedin.com/in/jodaias-barreto</li>
+            <li>GitHub: https://github.com/jodaias</li>
             <li>Telefone: (19) 98324-8016</li>
             <li>Localização: Jardim Amanda I, Hortolândia / SP</li>
           </ul>
