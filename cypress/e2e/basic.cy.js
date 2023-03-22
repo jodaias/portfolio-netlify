@@ -5,13 +5,14 @@ describe('sample test', () => {
 
   it('displays the resources text', () => {
     cy.get('h1')
-    .contains('Welcome to my app!');
+      .contains('Bem-vindo ao meu Portfólio');
   })
-  it('renders the Netlify logo image', () => {
+
+  it('renders the J╬Ð logo image', () => {
     cy.get('img')
-    .should('be.visible')
-    .and(($img) => {
-      expect($img[0].naturalWidth).to.be.greaterThan(0);
-    })
+      .should('be.visible')
+      .and(($img) => {
+        expect($img[0].naturalWidth).to.be.greaterThan(0);
+      })
   })
 })
