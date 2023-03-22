@@ -1,0 +1,150 @@
+/* .description {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.skills {
+  margin-top: 80px;
+  text-align: center;
+}
+
+.skills h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 48px;
+}
+
+.skills ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skills li {
+  font-size: 18px;
+  margin: 8px;
+  padding: 16px;
+  background-color: #f3f3f3;
+  border-radius: 8px;
+  text-align: center;
+} */
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  min-height: calc(100vh - 200px);
+}
+
+.about h2,
+.about h3 {
+  margin: 40px 0 20px 0;
+  text-align: center;
+}
+
+.about p {
+  max-width: 800px;
+  text-align: center;
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+
+.about .skills {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.about .skills h2 {
+  margin-bottom: 20px;
+}
+
+.about .skills ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.about .skills li {
+  margin: 10px 0;
+  text-align: center;
+  max-width: 800px;
+}
+
+.about .skills li::before {
+  content: "\2022";
+  color: #0b63a2;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.about .skills li:last-child {
+  margin-bottom: 0;
+}
+
+.about .education {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.about .education h3 {
+  margin-bottom: 20px;
+}
+
+.about .education-item {
+  max-width: 800px;
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #F9F9F9;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.about .education-item h4 {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+.about .education-item p {
+  margin-bottom: 5px;
+}
+
+.about .education-item span {
+  font-weight: bold;
+}
+
+.about .education-item .date {
+  margin-left: auto;
+  text-align: right;
+  font-size: 0.8rem;
+  font-style: italic;
+}
+
+.about .education-item.incomplete {
+  background-color: #F9DAD9;
+  border-color: #D57A6A;
+}
+
+.about .education-item.incomplete h4 {
+  text-decoration: line-through;
+  color: #D57A6A;
+}

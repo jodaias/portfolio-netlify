@@ -1,23 +1,45 @@
 import Head from 'next/head'
-import Header from '@components/Header'
-import Footer from '@components/Footer'
+import HeaderTile from '@components/header-title';
+import Footer from '@components/Footer';
+import TopBar from './topbar';
 
 export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Next.js Starter!</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>Meu Portifólio</title>
+        <link rel="icon" href="/jods.dev.svg" />
       </Head>
 
-      <main>
-        <Header title="Welcome to my app!" />
-        <p className="description">
-          Get started by editing <code>pages/index.js</code>
-        </p>
-      </main>
+      <main className="main">
+        <TopBar />
 
+        <HeaderTile title="Bem-vindo ao meu Portfólio" />
+
+        <p className="description">
+          Meu nome é Jodaías Barreto e sou desenvolvedor de software. Neste espaço,
+          compartilho com você algumas informações sobre mim, meu trabalho e
+          projetos.
+        </p>
+
+        <div className="grid">
+          <a href="/about" className="card">
+            <h2>Sobre mim &rarr;</h2>
+            <p>Conheça mais sobre minha trajetória e experiência profissional.</p>
+          </a>
+
+          <a href="/projects" className="card">
+            <h2>Projetos &rarr;</h2>
+            <p>Veja alguns dos projetos em que tenho trabalhado.</p>
+          </a>
+
+          <a href="/contact" className="card">
+            <h2>Contato &rarr;</h2>
+            <p>Fale comigo para dúvidas, sugestões ou propostas de trabalho.</p>
+          </a>
+        </div>
+      </main>
       <Footer />
     </div>
-  )
+  );
 }

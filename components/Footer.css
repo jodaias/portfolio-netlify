@@ -7,7 +7,16 @@
   align-items: center;
 }
 
+.link-without-line {
+  text-decoration: none;
+}
+
 .logo {
-  height: 3em;
-  margin: 5px;
+  height: 25px;
+}
+
+.powered {
+  display: inline-block;
+  vertical-align: super;
+  margin-left: 5px;
 }
