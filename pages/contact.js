@@ -27,7 +27,7 @@ export default function Contact() {
             Como desenvolvedor Full Stack, estou sempre buscando novos desafios e projetos interessantes.<br></br>
             Se você tiver alguma oportunidade de trabalho ou projeto em que eu possa ser útil,<br></br>
             não hesite em entrar em contato. Estou disponível para conversar por telefone <br></br>
-            (ligação e/ou whatsapp) ou e-mail. Estou ansioso para ouvir de você!
+            (ligação e/ou whatsapp), LinkedIN ou e-mail. Estou ansioso para ouvir de você!
           </p>
         </main>
       </div>
