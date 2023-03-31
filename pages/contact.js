@@ -17,10 +17,10 @@ export default function Contact() {
 
           <p>Entre em contato:</p>
           <ul>
-            <li>Email: jodaias.developer@gmail.com</li>
-            <li>LinkedIN: https://www.linkedin.com/in/jodaias-barreto</li>
-            <li>GitHub: https://github.com/jodaias</li>
-            <li>Telefone: (19) 98324-8016</li>
+            <li>Email: <a href="mailto:jodaias.developer@gmail.com">jodaias.developer@gmail.com</a></li>
+            <li>LinkedIN: <a href="https://www.linkedin.com/in/jodaias-barreto">https://www.linkedin.com/in/jodaias-barreto</a></li>
+            <li>GitHub: <a href="https://github.com/jodaias">https://github.com/jodaias</a></li>
+            <li>Telefone: <a href="tel:+5519983248016">(19) 98324-8016</a></li>
             <li>Localização: Jardim Amanda I, Hortolândia / SP</li>
           </ul>
           <p className='summary'>
