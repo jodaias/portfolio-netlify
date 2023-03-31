@@ -17,11 +17,11 @@ export default function Contact() {
 
           <p>Entre em contato:</p>
           <ul>
-            <li>Email: <a href="mailto:jodaias.developer@gmail.com">jodaias.developer@gmail.com</a></li>
-            <li>LinkedIN: <a href="https://www.linkedin.com/in/jodaias-barreto">https://www.linkedin.com/in/jodaias-barreto</a></li>
-            <li>GitHub: <a href="https://github.com/jodaias">https://github.com/jodaias</a></li>
-            <li>Telefone: <a href="tel:+5519983248016">(19) 98324-8016</a></li>
-            <li>Localização: Jardim Amanda I, Hortolândia / SP</li>
+            <li><a href="mailto:jodaias.developer@gmail.com" target="_blank"><img src="../assets/images/email.png" alt="Email" /></a></li>
+            <li><a href="https://www.linkedin.com/in/jodaias-barreto" target="_blank"><img src="../assets/images/linkedin.png" alt="LinkedIn" /></a></li>
+            <li><a href="https://github.com/jodaias" target="_blank"><img src="../assets/images/github.png" alt="GitHub" /></a></li>
+            <li><a href="https://wa.me/5519983248016" target="_blank"><img src="../assets/images/whatsapp.png" alt="Whatsapp" /></a></li>
+            <li><a href="https://www.google.com/maps/place/Jardim+Amanda+I,+Hortol%C3%A2ndia+-+SP,+13185-554/@-22.8514288,-47.2268986,15z/data=!4m5!3m4!1s0x94ce6e0260df28a1:0xf7156e43bbbe53a7!8m2!3d-22.849522!4d-47.220917" target="_blank"><img src="../assets/images/localization.png" alt="Localização" /></a></li>
           </ul>
           <p className='summary'>
             Como desenvolvedor Full Stack, estou sempre buscando novos desafios e projetos interessantes.<br></br>
