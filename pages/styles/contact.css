@@ -1,0 +1,10 @@
+.contact ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.contact li {
+  margin-right: 10px;
+}

@@ -16,13 +16,15 @@ export default function Contact() {
           <HeaderTile title="Contato" />
 
           <p>Entre em contato:</p>
-          <ul>
-            <li><a href="mailto:jodaias.developer@gmail.com" target="_blank"><img src="../assets/images/email.png" alt="Email" /></a></li>
-            <li><a href="https://www.linkedin.com/in/jodaias-barreto" target="_blank"><img src="../assets/images/linkedin.png" alt="LinkedIn" /></a></li>
-            <li><a href="https://github.com/jodaias" target="_blank"><img src="../assets/images/github.png" alt="GitHub" /></a></li>
-            <li><a href="https://wa.me/5519983248016" target="_blank"><img src="../assets/images/whatsapp.png" alt="Whatsapp" /></a></li>
-            <li><a href="https://www.google.com/maps/place/Jardim+Amanda+I,+Hortol%C3%A2ndia+-+SP,+13185-554/@-22.8514288,-47.2268986,15z/data=!4m5!3m4!1s0x94ce6e0260df28a1:0xf7156e43bbbe53a7!8m2!3d-22.849522!4d-47.220917" target="_blank"><img src="../assets/images/localization.png" alt="Localização" /></a></li>
-          </ul>
+          <div className='contact'>
+            <ul>
+              <li><a href="mailto:jodaias.developer@gmail.com" target="_blank"><img width="70" height="50" src="/images/email.png" alt="Email" /></a></li>
+              <li><a href="https://www.linkedin.com/in/jodaias-barreto" target="_blank"><img width="70" height="50" src="/images/linkedin.png" alt="LinkedIn" /></a></li>
+              <li><a href="https://github.com/jodaias" target="_blank"><img width="70" height="50" src="/images/github.png" alt="GitHub" /></a></li>
+              <li><a href="https://wa.me/5519983248016" target="_blank"><img width="50" height="50" src="/images/whatsapp.png" alt="Whatsapp" /></a></li>
+              <li><a href="https://www.google.com/maps/place/Jardim+Amanda+I,+Hortol%C3%A2ndia+-+SP,+13185-554/@-22.8514288,-47.2268986,15z/data=!4m5!3m4!1s0x94ce6e0260df28a1:0xf7156e43bbbe53a7!8m2!3d-22.849522!4d-47.220917" target="_blank"><img width="70" height="50" src="/images/localization.png" alt="Localização" /></a></li>
+            </ul>
+          </div>
           <p className='summary'>
             Como desenvolvedor Full Stack, estou sempre buscando novos desafios e projetos interessantes.<br></br>
             Se você tiver alguma oportunidade de trabalho ou projeto em que eu possa ser útil,<br></br>
