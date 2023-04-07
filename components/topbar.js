@@ -4,6 +4,7 @@ export default function TopBar() {
   return (
     <div className="header">
       <nav className="nav">
+        <img src="/jods.dev.svg" alt="Jods╬Dev" />
         <ul className="menu">
           <li className="menuItem">
             <Link href="/">

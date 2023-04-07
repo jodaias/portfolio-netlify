@@ -43,7 +43,8 @@ code {
   font-size: 32px;
   text-align: center;
   font-weight: bold;
-  margin-bottom: 16px;
+  margin-bottom: 1rem;
+  margin-top: 3rem;
 }
 
 .summary{
